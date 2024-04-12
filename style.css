@@ -1,0 +1,238 @@
+body{
+    background-color: hsla(0, 1%, 21%, 0.089);
+    font-family: Arial,sans-serif;
+}
+
+.Header{
+    background-color: hsl(0, 0%, 0%);
+    margin-left: -15px;
+    margin-top: -10px;
+    height: 33vh;
+}
+
+.TextsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 33vh;
+    color: white;
+    font-weight: bold;
+    font-size: 3.1rem;
+    text-align: center;
+    margin-top: -60px;
+
+}
+ .navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+ }
+
+ .navbar a{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.76);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    margin-right: 20px;
+ }
+
+ .navbar a:hover{
+    background-color: rgba(128, 128, 128, 0.527);
+ }
+
+ 
+.Arrow{
+    color: red;
+}
+
+.Url-Container{
+    position: fixed;
+    top: 220px;
+    left: 640px;
+    background-color: white;
+    width: 29%;
+    padding: 40px  30px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    white-space: nowrap;
+    box-shadow: 2px 2px 5px hsl(0, 0%, 0%,0.5);
+}
+
+.TopText{
+    margin-top: -25px;
+    margin-bottom: 25px;
+    color: hsla(0, 0%, 0%, 0.74);
+    font-size: 15px;
+}
+
+.TextBar{
+    width: 80%;
+    padding: 17px 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border-color: hsla(0, 1%, 35%, 0.062);
+    background-color: hsla(0,1%,35%,0.062) ;
+    color: hsla(0, 1%, 35%, 0.712);
+}
+
+.TextBar:hover{
+    border-color: hsla(0, 1%, 35%, 0.062);
+    background-color: hsla(0,1%,35%,0.062) ;
+
+}
+
+.convertButton{
+   background-color: black;
+   color: white;
+   padding: 16px 16px;
+   border-radius: 9px;
+   border: none;
+   cursor: pointer;
+   font-weight: bold;
+   font-size: 0.8em; 
+
+
+}
+
+.convertButton:hover{
+    background-color: hsl(0, 85%, 40%);
+}
+
+.BottomText{
+    margin-top: 25px;
+    margin-left: 405px;
+
+}
+
+.VidMP3text{
+    color: red;
+    font-weight: bold;
+}
+
+.ChangeLogTextBox{
+    margin-top: 15px;
+    margin-left: 450px;
+    background-color: white;
+    width: 50%;
+    padding: 40px  60px;
+    padding-bottom: 500px;
+    border-radius: 30px;
+    white-space: nowrap;
+    box-shadow: 10px 10px 90px;
+}
+.Changelogtext{
+    margin-right: 1220px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline red; 
+    text-underline-offset: 0.25em;
+    color: rgba(0, 0, 0, 0.808);
+    font-size: 1.6em;
+
+}
+
+.Topline{
+    margin-bottom: 65px;
+    display: block;
+    margin-top: 40px;
+    width: 65%;
+    border-color: rgba(0, 0, 0, 0.192);
+    border-width: 1px;
+    border-style: inset;
+}
+
+.HowTo{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.ListItems{
+    font-style: Arial;
+    color: rgba(0, 0, 0, 0.836);
+    margin-top: 50px;
+    margin-left: 550px;
+    width: 40%;
+    font-size: 1.2em;
+}
+
+.ListItems::before{
+    color: red;
+}
+
+h1{
+    margin-top: 25px;
+    font-size: 4.5rem;
+    background-image: linear-gradient(43deg,#442b2b 0%, #252525 64%,#463633ab 100%);
+    text-align: center;
+    color: white;
+}
+
+.fa-solid.fa-phone{
+    margin-left: 230px;
+    font-size: 10rem;
+}
+
+.ByPhoneText{
+    margin-top: 40px;
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.Phone{
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 2rem;
+}
+ 
+.fa-regular.fa-envelope{
+    
+    margin-left: 1500px;
+    margin-top: -270px;    
+    font-size: 10rem;
+    height: 100%;
+}
+
+.ByEmail{
+    margin-left: 1300px;
+    margin-top: -60px;
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+    height: 20vh;
+    margin-top: 45px;
+}
+
+.Email{
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    height: 20vh;
+}
+
+.test{
+    margin-top: -130px;
+}
+ 
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+ 
