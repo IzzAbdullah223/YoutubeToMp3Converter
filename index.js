@@ -17,6 +17,7 @@ convertButton.addEventListener("click", async  ()=>{
 
 
  async function Test(videoID){
+    console.log(videoID)
     const url = `https://youtube-mp36.p.rapidapi.com/dl?id=${videoID}`
     const options = {
         method: 'GET',
@@ -32,5 +33,7 @@ convertButton.addEventListener("click", async  ()=>{
         window.open(result.link)
 
     })
+    console.log(result)
+    
 
 }
